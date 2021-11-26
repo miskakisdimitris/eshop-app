@@ -1,0 +1,90 @@
+#main-div {
+    background-color: blueviolet;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+nav {
+    background-color: blueviolet;
+    padding-top: 6%;
+    padding-bottom: 9%;
+}
+
+#burger-button {
+    position: relative;
+    left: 3%;
+    border: none;
+    border-radius: 30%;
+}
+
+#burger-button div {
+    width: 35px;
+    height: 5px;
+    background-color: black;
+    margin: 6px 0;
+    border-radius: 30px;
+}
+
+#logo {
+    width: 49%;
+    position: relative;
+    left: 13%;
+    border-radius: 30px;
+}
+
+#profile-div {
+    display: inline-flex;
+    flex-direction: column;
+    position: relative;
+    left: 16%;
+}
+
+#profile-div button {
+    font-size: 43px;
+    background: none;
+    border: none;
+    color: #337ab7;
+}
+
+#profile-div a {
+    font-size: 25px;
+    line-height: 30px;
+}
+
+#shopping-cart-button a {
+    top: 0px;
+}
+
+#search-bar {
+    position: relative;
+    left: 7%;
+    top: 20px;
+    border: none;
+    border-radius: 30px;
+    font-size: 22px;
+    background-color: brown;
+}
+
+#katigories-proiontwn {
+    font-size: 200%;
+    color: blue;
+}
+
+#proionta-div {
+    display: flex;
+    flex-direction: column;
+    gap: 95px;
+}
+
+.proionta {
+    display: flex;
+    flex-direction: row;
+    gap: 58px;
+    font-size: 30px;
+}
+
+#perissotera {
+    font-size: 200%;
+    align-self: center;
+}
